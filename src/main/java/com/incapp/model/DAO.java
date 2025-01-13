@@ -15,7 +15,7 @@ public class DAO {
 	
 	public DAO() throws SQLException,ClassNotFoundException  {
 		Class.forName("com.mysql.cj.jdbc.Driver");
-		c=DriverManager.getConnection("jdbc:mysql://localhost:3306/krypturg", "root", "incapp");
+		c=DriverManager.getConnection("jdbc:mysql://localhost:3306/krypturg", "root", "prince88916");
 	}
 	
 	public void closeConnection()throws SQLException {
